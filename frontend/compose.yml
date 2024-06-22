@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    tty: true
+    ports:
+      - 3000:3000
+    environment:
+      - WATCHPACK_POLLING=true
+    volumes:
+      - .:/app
+    # command: /bin/sh -c "yarn install && yarn build && yarn dev"

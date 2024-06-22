@@ -1,0 +1,1 @@
+# TerraformでNext.jsをS3へデプロイ
